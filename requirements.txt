@@ -1,0 +1,17 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+
+# Banco de dados (SQLAlchemy 2.x)
+SQLAlchemy==2.0.36
+psycopg2-binary==2.9.11
+
+# Config e validações
+pydantic==2.10.4
+pydantic-settings==2.7.0
+
+# Testes
+pytest==8.3.4
+requests==2.32.3
+
+# Qualidade de código
+ruff==0.8.4
